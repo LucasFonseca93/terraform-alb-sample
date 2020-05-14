@@ -35,11 +35,11 @@ terraform apply
 
 The script generates a series of outputs containing:
 
-* created vpc id
-* public bastion id and ip
-* private id and ip of the nginx instance
-* apache instance id and private ip
-* loadbalancer dns address
+* created vpc id (vpc_id)
+* public bastion id and ip (bastion)
+* private id and ip of the nginx instance (nginx)
+* apache instance id and private ip (apache)
+* loadbalancer dns address (lb_address)
 
 Sample:
 ```
