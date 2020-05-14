@@ -17,7 +17,7 @@ For this scenario the CIDR defined for the vpc was `172.18.80.0/20` and AZ was `
 | public | 172.18.84.0/22 | us-east-1c |
 
 
-Temos apenas duas tabelas de rotas bem simples:
+We have only two very simple route tables:
 
 | Scope | cidr | destinaton |
 | ----- | ---- | ---------- |
