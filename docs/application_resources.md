@@ -21,7 +21,7 @@ Table of created resources:
 
 For the simple task of just uploading a nginx and an apache on each of the http servers, complex structures are not necessary.
 
-I chose inside terraform to open a ssh tunnel between bastion and private instance and execute a short list of bash commands for installing packages.
+I chose inside terraform to open a `ssh tunnel` between bastion and private instance and execute a short list of bash commands for installing packages.
 
 > Due to the reduced size and processing capacity of the instances, this configuration step may take a few minutes
 

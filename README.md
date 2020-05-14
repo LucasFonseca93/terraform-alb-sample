@@ -20,27 +20,34 @@ Below is a list of resources and doc:
 
 This is a simple diagram of this resources:<br/><br/>
 
-<div style="text-align:center">
 <img src="https://github.com/LucasFonseca93/terraform-alb-sample/raw/master/docs/diagram.png" width="550">
-</div>
 
 ## How to run
-First of all initialize the necessary terraform plugins to run the scripts:
+Suggestion on how to run the scripts:
 ```
 terraform init
+terraform validate # optional
+terraform plan # optional
+terraform apply 
 ```
 
-After that it is possible to check if the scripts do not contain any type of error:
-```
-terraform validate
-```
+## Outputs
 
-See what will be built into your aws account by running the following command:
-```
-terraform plan
-```
+The script generates a series of outputs containing:
 
-Just run the apply command to create the resources:
+* created vpc id
+* public bastion id and ip
+* private id and ip of the nginx instance
+* apache instance id and private ip
+* loadbalancer dns address
+
+Sample:
 ```
-terraform apply
+Outputs:
+
+apache = ID: i-054ebd57cc16b55b5 Private IP: 172.18.93.158
+bastion = ID: i-0651fec28cb9497f1 Public IP: 3.209.118.216
+lb_address = test-lucas-fonseca-app-lb-703623986.us-east-1.elb.amazonaws.com
+nginx = ID: i-074ebd1f64384d79f Private IP: 172.18.90.106
+vpc_id = vpc-06d7913415e9859f0
 ```
