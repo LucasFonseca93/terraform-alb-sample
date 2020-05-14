@@ -13,13 +13,13 @@ Available in: https://releases.hashicorp.com/terraform/0.12.20/
 Although it is simple, this project contains concepts of cybersecurity and high availability.<br/><br/>
 Below is a list of resources and doc:
 
-* [Basic network](http://127.0.0.1:1234) (VPC, subnets, gateways and more)
-* [Security resources](http://127.0.0.1:1234) (key pairs and security groups)
-* [Application resources](http://127.0.0.1:1234) (ec2 instances)
-* [Load balancer resources](http://127.0.0.1:1234) (Alb, target groups, listeners and more)
+* [Basic network](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/basic_network.md) (VPC, subnets, gateways and more)
+* [Security resources](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/security_resources.md) (key pairs and security groups)
+* [Application resources](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/application_resources.md) (ec2 instances)
+* [Load balancer resources](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/load_balancer.md) (Alb, target groups, listeners and more)
 
 This is a simple diagram of this resources:<br/>
-![Diagram](http://url/to/img.png)
+![Diagram](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/diagram.png)
 
 
 ## How to run
