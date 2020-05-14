@@ -10,7 +10,7 @@ Available in: https://releases.hashicorp.com/terraform/0.12.20/
 
 ## Resources
 
-Although it is simple, this project contains concepts of cybersecurity and high availability.<br/><br/>
+Although it is simple, this project contains concepts of cybersecurity.<br/><br/>
 Below is a list of resources and doc:
 
 * [Basic network](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/basic_network.md) (VPC, subnets, gateways and more)
