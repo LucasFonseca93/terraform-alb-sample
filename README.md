@@ -18,9 +18,11 @@ Below is a list of resources and doc:
 * [Application resources](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/application_resources.md) (ec2 instances)
 * [Load balancer resources](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/load_balancer.md) (Alb, target groups, listeners and more)
 
-This is a simple diagram of this resources:<br/>
-![Diagram](https://github.com/LucasFonseca93/terraform-alb-sample/blob/master/docs/diagram.png)
+This is a simple diagram of this resources:<br/><br/>
 
+<div style="text-align:center">
+<img src="https://github.com/LucasFonseca93/terraform-alb-sample/raw/master/docs/diagram.png" width="550">
+</div>
 
 ## How to run
 First of all initialize the necessary terraform plugins to run the scripts:
